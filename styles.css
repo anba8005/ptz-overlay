@@ -1,3 +1,22 @@
 /* styles.css */
 
 /* Add styles here to customize the appearance of your app */
+html,body {
+    height: 95%;
+    margin-left: 100px !important;
+    background-color: transparent !important;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.row {
+    align-items: flex-end;
+}
+
+.text-center {
+    font-size: 26px !important;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
